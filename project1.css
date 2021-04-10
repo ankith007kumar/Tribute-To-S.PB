@@ -1,0 +1,194 @@
+body {
+    padding: 50px;
+    padding-top: 0;
+    margin: 0;
+    background: linear-gradient(50deg, rgba(255,158,38,1) 18%, rgba(112,60,255,0.7903536414565826) 77%);
+    color:black;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+  }
+
+  #head {
+      font-style: italic;
+      font-size: 53px;
+      font-family:Georgia, 'Times New Roman', Times, serif ;
+      margin-top: 0;
+      font-weight: bold;
+      text-shadow: 2px 2px white;
+  }
+  
+  .container {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .header-container h1 {
+    font-family: "Acme", sans-serif;
+    color: rgb(26, 19, 46);
+  }
+  
+  .header-container h4,
+  h5 {
+    font-family: sans-serif;
+    color: rgb(47, 42, 59);
+  }
+
+  .header-container h5 {
+    color: rgb(55, 51, 65);
+    padding-bottom: 50px;
+  }
+  
+  #prof-img {
+    height: 25%;
+    width: 35%;
+    padding: 0px 30px 10px 30px;
+     }
+  
+  .info {
+    text-align: left;
+  }
+  
+  .about {
+    font-family: sans-serif;
+    color: black;
+    line-height: 28px;
+    font-size: 20px;
+    word-wrap: normal;
+  }
+  
+  .music,.movies,.awards {
+    border:2px solid black;
+    width: 35%;
+    margin-left: 10px;
+    background-color: rgba(255, 255, 255, 0.308);
+    border-radius: 20px;
+    padding:0.5%;
+  }
+  
+  .music:hover,.movies:hover,.awards:hover{
+    border:2px solid red;
+    width: 35%;
+    margin-left: 10px;
+    background-color: rgb(245, 235, 235);
+    border-radius: 20px;
+  }
+  
+
+  .achieve{
+      display: inline-flex;
+  }
+
+  #title {
+    text-align: center;
+    font-size: 35px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(39, 39, 39);
+    text-shadow: 1px 1px white;
+  }
+  
+  .list1 {
+    font-family: sans-serif;
+    color: black;
+    line-height: 35px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  button{
+      background-color: rgba(15, 15, 17, 0.438);
+      border:none;
+      text-decoration: none;
+      font-size: medium;
+      font-weight: bold;
+      height: 40px;
+      padding:5px;
+      width:100%;
+      color:white;
+      margin-bottom: 10%;
+      outline: none;
+
+  }
+
+  button:hover{
+    background-color: rgb(0, 110, 255);
+    border:none;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+    height: 40px;
+    padding:5px;
+    color:white;
+    outline:none;
+}
+  
+  a{
+    text-decoration: none;
+  }
+
+  img{
+      width:20%;
+      height:150px;
+      margin-left: 10px;
+      border-radius: 20px;
+  }
+
+  img:hover{
+    width:25%;
+    height:180px;
+  }
+
+  input[type=text],input[type=mail]{
+    border-radius: 20px;
+    height: 30px;
+    font-weight: bold;
+    width:20%;
+    border: none;
+    text-align: center;
+    outline: none;
+}
+
+textarea{
+    border-radius: 20px;
+    height:50px;
+    font-weight: bold;
+    width:20%;
+    border: none;
+    text-align: center;
+    outline: none;
+}
+
+input[type=submit]{
+    background-color: rgb(74, 194, 27);
+      border:none;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: medium;
+      font-weight: bold;
+      width: 10%;
+      padding:5px;
+}
+
+input[type=submit]:hover{
+  background-color: rgb(18, 112, 235);
+  color:white;
+    border:none;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+    width: 10%;
+    padding:5px;
+}
+
+marquee{
+  color:white; font-size:40px;font-style: italic;font-family: cursive;
+  text-shadow: 2px 2px black;
+}
+
+marquee:hover{
+  color:black; font-size:40px;font-style: italic;font-family: cursive;
+  text-shadow: 2px 2px white;
+
+}
